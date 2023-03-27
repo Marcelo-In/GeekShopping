@@ -13,7 +13,7 @@ namespace GeekShopping.ProductAPI.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Products",
+                name: "Product",
                 columns: table => new
                 {
                     id = table.Column<long>(type: "bigint", nullable: false)
